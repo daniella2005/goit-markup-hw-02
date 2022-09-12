@@ -1,0 +1,49 @@
+header {
+    padding: 25px 0;
+}
+
+.webstudio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.webstudio-list {
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+}
+
+.webstudio-list a {
+    margin: 0 25px;
+    color: black;
+}
+.webstudio-list li:first-child a {
+    color:#2196F3;
+}
+.webstudio-list li:hover {
+    cursor: pointer;
+}
+.webstudio-list li:hover a{
+    color:#2196F3;
+}
+.webstudio-list li:active a{
+    color: #196cb1;
+}
+
+.webstudio-mail a:first-child{
+    margin-right: 50px;
+    color:#2196F3;
+}
+.webstudio-mail a:last-child{
+    color: #757575;
+}
